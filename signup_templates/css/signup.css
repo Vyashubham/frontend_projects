@@ -1,0 +1,82 @@
+
+body{
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.main_obj{
+  height: 70vh;
+  width: 80vw;
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  /* background-color: rgb(74, 112, 146); */
+  border: .2rem solid #3D3D46;
+  border-radius: .5rem;
+  padding: 2rem;
+
+}
+
+.graphic{
+  height: 100%;
+  width: 40%;
+  /* background-color: blanchedalmond; */
+  background-image: url("../media/health-vitamins-suplements.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /* animation: rotation 1.5s ; */
+
+
+  
+}
+
+@keyframes rotation {
+  50% {transform: rotate(15deg);}
+  100% {transform: rotate(-15deg);}
+}
+
+
+.content{
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+
+  /* background-color: aqua; */
+}
+
+.content a{
+  text-decoration: none;
+  position: absolute;
+  color: #f8f6f6;
+  background-color: #525050;
+  padding: 1.5rem 3rem;
+  border-radius: .6rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+  0 2px 4px rgba(0,0,0,0.07), 
+  0 4px 8px rgba(0,0,0,0.07), 
+  0 8px 16px rgba(0,0,0,0.07),
+  0 16px 32px rgba(0,0,0,0.07), 
+  0 32px 64px rgba(0,0,0,0.07);
+
+  font-weight: bold;
+  
+}
+
+.content a:hover{
+  transition: .5s;
+  background-color: #161616;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+  0 2px 4px rgba(0,0,0,0.07), 
+  0 4px 8px rgba(0,0,0,0.07), 
+  0 8px 16px rgba(0,0,0,0.07),
+  0 16px 32px rgba(0,0,0,0.07), 
+  0 32px 64px rgba(0,0,0,0.07);
+}
