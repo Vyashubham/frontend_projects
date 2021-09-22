@@ -93,7 +93,7 @@ body, html{
 .main_section{
     display: flex;
     width: 97%;
-    height: 79vh;
+    height: 75vh;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
@@ -188,12 +188,15 @@ body, html{
 
 .footer_section{
     display: flex;
-    width: 97%;
+    width: 94%;
     margin: 0 auto;
     height: 15vh;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     /* background-color: orange; */
+}
+.footer_section h2{
+  margin: 0;
 }
 
 
