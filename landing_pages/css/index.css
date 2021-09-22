@@ -148,7 +148,28 @@ body, html{
   /* animation: example 1s infinite; */
 
 }
+.main_text{
+  width: 60%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: darkolivegreen; */
+  
+}
+.text{
+  width: 80%;
+  /* background-color: aquamarine; */
+}
+.text h1{
+  margin: 0;
+  padding: 0;
+  font-size: 6rem;
+  font-weight: lighter;
+  font-family: 'Bonheur Royale', cursive;
 
+  /* background-color: blueviolet; */
+}
 /* 
 .background:hover{
     width: 80vw;
