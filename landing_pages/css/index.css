@@ -3,46 +3,70 @@ body, html{
     margin: 0 !important;
     padding: 0 !important;
     font-family: 'Lato', sans-serif;
+    letter-spacing: .05rem;
 }
 
 .top_nav{
     
     display: flex;
+    
     width: 97%;
     height: 6vh;
     margin: 0 auto;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
 
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .logo_wrapper{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     flex-direction: row;
     width: 10%;
+    height: 100%;
 
-    background-color: green;
+    /* background-color: green; */
 
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 1.7rem;
+   
 }
 
 .logo{
-    padding: 0 .3rem;
-    border: 2px solid rgb(87, 85, 85);
-    border-radius: .25rem;
-    font-weight: bolder;
+
+    height: 2rem;
+    width: 2rem;
+    /* padding: 1.5rem 1.5rem; */
+    /* border: 2px solid rgb(87, 85, 85); */
+    border-radius: 70% 30% 30% 70% / 70% 40% 60% 40%;
+    
+    background-color: powderblue;
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+    /* background-image: url(../media/png.png); */
+    /* background-size: cover; */
+
 }
+/* 
+.logo_container{
+    height: 100%;
+    width: 100%; */
+/* } */
 
 .nav_buttons_wrapper{
     display: flex;
     width: 15%;
     justify-content: space-evenly;
 
-    background-color: rgb(145, 91, 40);
+    /* background-color: rgb(145, 91, 40); */
 }
 
-.nav_buttons_wrapper > h3{
+.nav_buttons_wrapper > p{
     /* background-color: palevioletred; */
     padding: 0.5rem .5rem;
     /* border-bottom: .2rem solid white;
@@ -60,7 +84,7 @@ body, html{
   color: black;
 }
 
-.nav_buttons_wrapper > h3:hover{
+.nav_buttons_wrapper > p:hover{
     /* border-bottom: .2rem solid black; */
     /* background-position: 50% calc(100% - var(--bottom-distance)); */
     /* transition: .3s; */
@@ -71,26 +95,30 @@ body, html{
     width: 97%;
     height: 79vh;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     
 
-    background-color: aqua;
+    /* background-color: aqua; */
     
     
 
 }
 .background{
-    min-width: 93vw;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
     height: 75vh;
     /* background-image: url(https://cdn.dribbble.com/users/400493/screenshots/6450309/main_dribbble_8.gif); */
     border-radius: .7rem;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    background-color: aquamarine;
+    background-size: cover; */
+    
+    /* background-color: aquamarine; */
+
     /* animation-name: example; */
     /* animation: example 1.5s infinite;
     animation-timing-function: ease-in;
@@ -98,6 +126,29 @@ body, html{
     animation-timing-function: cubic-bezier(.65,0,.34,1); */
     /* cursor:pointer; */
 }
+
+.background_video{
+    /* background-color: coral; */
+    /* border-radius: 1rem ; */
+    height: 70% !important;
+    /* border-radius: 70% 10% 30% 70% / 70% 40% 60% 20%; */
+    border-radius: 12% 88% 9% 91% / 88% 14% 86% 12% ;
+    transform: rotate(-3.5deg);
+    /* margin: 0 auto !important; */
+    box-shadow:
+  2px 2px 4.2px rgba(0, 0, 0, 0.03),
+  4.5px 4.5px 9.5px rgba(0, 0, 0, 0.04),
+  7.9px 7.9px 16.6px rgba(0, 0, 0, 0.046),
+  12.5px 12.5px 26.3px rgba(0, 0, 0, 0.052),
+  19.3px 19.3px 40.6px rgba(0, 0, 0, 0.061),
+  30.1px 30.1px 63.3px rgba(0, 0, 0, 0.074),
+  50px 50px 105.1px rgba(0, 0, 0, 0.095)
+  /* 100px 100px 210px rgba(0, 0, 0, 0.14) */
+; 
+  /* animation: example 1s infinite; */
+
+}
+
 /* 
 .background:hover{
     width: 80vw;
@@ -121,34 +172,26 @@ body, html{
     height: 15vh;
     justify-content: space-evenly;
     align-items: center;
-    background-color: orange;
+    /* background-color: orange; */
 }
 
-/* 
+
 @keyframes example {
-    5%   {transform: scale3d(1.0, 1.0, 1.0);}
-    10% {transform: scale3d(1.05, 1.05, 1.05);}
-    15%  {transform: scale3d(1.1, 1.1, 1.1);}
-    20%  {transform: scale3d(1.15, 1.15, 1.15);}
-    25%  {transform: scale3d(1.20, 1.20, 1.20);}
-    /* 30%  {transform: scale3d(1.25, 1.25, 1.25);}
-    35%  {transform: scale3d(1.30, 1.30, 1.30);}
-    40% {transform: scale3d(1.35, 1.35, 1.35);}
-    45%  {transform: scale3d(1.40, 1.40, 1.40);}
-    50%  {transform: scale3d(1.45, 1.45, 1.45);}
-    55%  {transform: scale3d(1.50, 1.50, 1.50);}
-    60%  {transform: scale3d(1.55, 1.55, 1.55);}
-    65%  {transform: scale3d(1.50, 1.50, 1.50);}
-    70%  {transform: scale3d(1.45, 1.45, 1.45);}
-    75%  {transform: scale3d(1.30, 1.30, 1.30);}
-    80%  {transform: scale3d(1.25, 1.25, 1.25);} */
-    /* 85%  {transform: scale3d(1.15, 1.15, 1.15);}
-    90%  {transform: scale3d(1.10, 1.10, 1.10);}
-    95%  {transform: scale3d(1.05, 1.05, 1.05);}
-    100%  {transform: scale3d(1, 1, 1);} */
+  0% {
+		transform: scale(0.99);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
 
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
 
-  /* } */ 
+	100% {
+		transform: scale(0.99);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+   } 
 /* /* 
   @keyframes splash {
     0%{display: 
@@ -159,12 +202,12 @@ body, html{
   }
   
 
-  h3:hover {
+  p:hover {
     background-size: 100% var(--border-width);
   }
 
 
-  h3{
+  p{
     /* you can change these variables to control the border */
     --border-color: rgb(46, 45, 46);
     --border-width: 0px;
@@ -191,7 +234,7 @@ body, html{
     background-position: 0 calc(100% - var(--bottom-distance))
   }
   
-  h1:hover {
+  p:hover {
     background-size: 100% var(--border-width);
   }
   
