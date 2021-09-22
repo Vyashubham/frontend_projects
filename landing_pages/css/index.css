@@ -11,6 +11,7 @@ body, html{
     width: 97%;
     height: 6vh;
     margin: 0 auto;
+    margin-top: 1rem;
     justify-content: space-between;
     align-items: center;
 
@@ -41,6 +42,30 @@ body, html{
     background-color: rgb(145, 91, 40);
 }
 
+.nav_buttons_wrapper > h3{
+    /* background-color: palevioletred; */
+    padding: 0.5rem .5rem;
+    /* border-bottom: .2rem solid white;
+    border-radius: 5%;
+    cursor: pointer; */
+
+    --border-width: 3px;
+  --bottom-distance: 0px; /* you can increase this */
+  display: inline-block;
+  background-image: linear-gradient(var(--border-color), var(--border-color));
+  background-size: 0% var(--border-width);
+  background-repeat: no-repeat;
+  transition: background-size 0.3s;
+  margin: 5px 0;
+  color: black;
+}
+
+.nav_buttons_wrapper > h3:hover{
+    /* border-bottom: .2rem solid black; */
+    /* background-position: 50% calc(100% - var(--bottom-distance)); */
+    /* transition: .3s; */
+    cursor: pointer;
+}
 .main_section{
     display: flex;
     width: 97%;
@@ -54,7 +79,7 @@ body, html{
     background-color: aqua;
     
     
-    
+
 }
 .background{
     min-width: 93vw;
@@ -71,7 +96,7 @@ body, html{
     animation-timing-function: ease-in;
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: cubic-bezier(.65,0,.34,1); */
-    cursor:pointer;
+    /* cursor:pointer; */
 }
 /* 
 .background:hover{
@@ -98,6 +123,7 @@ body, html{
     align-items: center;
     background-color: orange;
 }
+
 /* 
 @keyframes example {
     5%   {transform: scale3d(1.0, 1.0, 1.0);}
@@ -122,9 +148,50 @@ body, html{
     100%  {transform: scale3d(1, 1, 1);} */
 
 
-  } */
-/* 
+  /* } */ 
+/* /* 
   @keyframes splash {
     0%{display: 
+  } */
+
+.fromCenter {
+    background-position: 50% calc(100% - var(--bottom-distance));
   }
-   */
+  
+
+  h3:hover {
+    background-size: 100% var(--border-width);
+  }
+
+
+  h3{
+    /* you can change these variables to control the border */
+    --border-color: rgb(46, 45, 46);
+    --border-width: 0px;
+    --bottom-distance: 0px; /* you can increase this */
+    
+    color: #666;
+    display: inline-block;
+    background-image: linear-gradient(var(--border-color), var(--border-color));
+    background-size: 0% var(--border-width);
+    background-repeat: no-repeat;
+    transition: background-size 0.3s;
+    margin: 5px 0;
+  }
+  
+  .fromCenter {
+    background-position: 50% calc(100% - var(--bottom-distance));
+  }
+  
+  .fromRight {
+    background-position: 100% calc(100% - var(--bottom-distance));
+  }
+  
+  .fromLeft {
+    background-position: 0 calc(100% - var(--bottom-distance))
+  }
+  
+  h1:hover {
+    background-size: 100% var(--border-width);
+  }
+  
