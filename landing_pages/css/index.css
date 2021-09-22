@@ -197,6 +197,13 @@ body, html{
 }
 .footer_section h2{
   margin: 0;
+  margin-bottom: .5rem;
+  
+}
+
+.footer_section p{
+  margin: 0;
+  
 }
 
 
@@ -261,4 +268,20 @@ body, html{
   p:hover {
     background-size: 100% var(--border-width);
   }
-  
+  .hidden_section{
+    display: none;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    .top_nav, .main_section, .footer_section {
+      display: none !important;
+    }
+    .hidden_section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+
+    }
+  }
