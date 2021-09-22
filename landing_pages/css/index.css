@@ -2,6 +2,7 @@
 body, html{
     margin: 0 !important;
     padding: 0 !important;
+    font-family: 'Lato', sans-serif;
 }
 
 .top_nav{
@@ -13,11 +14,27 @@ body, html{
     justify-content: space-between;
     align-items: center;
 
-    background-color: yellow;
+    /* background-color: yellow; */
+}
+.logo_wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 10%;
+
+    /* background-color: green; */
+
+}
+
+.logo{
+    padding: 0 .3rem;
+    border: 2px solid rgb(87, 85, 85);
+    border-radius: .25rem;
+    font-weight: bolder;
 }
 .nav_buttons_wrapper{
     display: flex;
-    width: 10%;
+    width: 15%;
     justify-content: space-evenly;
 }
 
@@ -31,9 +48,21 @@ body, html{
 
     
 
-    background-color: aqua;
-
+    /* background-color: aqua; */
     
+    
+    
+}
+.background{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://cdn.dribbble.com/users/1981645/screenshots/14604636/media/2366c1ff011caa52ab9d486538e3afb2.gif);
+    border-radius: 4rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: aquamarine;
+
 }
 
 .footer_section{
@@ -43,5 +72,5 @@ body, html{
     height: 15vh;
     justify-content: space-evenly;
     align-items: center;
-    background-color: orange;
+    /* background-color: orange; */
 }
