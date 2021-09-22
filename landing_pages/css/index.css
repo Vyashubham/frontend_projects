@@ -8,13 +8,13 @@ body, html{
 .top_nav{
     
     display: flex;
-    width: 94%;
+    width: 97%;
     height: 6vh;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
 
-    /* background-color: yellow; */
+    background-color: yellow;
 }
 .logo_wrapper{
     display: flex;
@@ -22,7 +22,7 @@ body, html{
     flex-direction: row;
     width: 10%;
 
-    /* background-color: green; */
+    background-color: green;
 
 }
 
@@ -32,15 +32,18 @@ body, html{
     border-radius: .25rem;
     font-weight: bolder;
 }
+
 .nav_buttons_wrapper{
     display: flex;
     width: 15%;
     justify-content: space-evenly;
+
+    background-color: rgb(145, 91, 40);
 }
 
 .main_section{
     display: flex;
-    width: 94%;
+    width: 97%;
     height: 79vh;
     margin: 0 auto;
     justify-content: center;
@@ -48,32 +51,33 @@ body, html{
 
     
 
-    /* background-color: aqua; */
+    background-color: aqua;
     
     
     
 }
 .background{
-    width: 100px;
-    height: 100px;
-    background-image: url(https://cdn.dribbble.com/users/1981645/screenshots/14604636/media/2366c1ff011caa52ab9d486538e3afb2.gif);
-    border-radius: 4rem;
+    min-width: 93vw;
+    width: 100%;
+    height: 75vh;
+    /* background-image: url(https://cdn.dribbble.com/users/400493/screenshots/6450309/main_dribbble_8.gif); */
+    border-radius: .7rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: aquamarine;
     /* animation-name: example; */
-    animation: example 1.5s infinite;
+    /* animation: example 1.5s infinite;
     animation-timing-function: ease-in;
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: cubic-bezier(.65,0,.34,1);
+    animation-timing-function: cubic-bezier(.65,0,.34,1); */
     cursor:pointer;
 }
-
+/* 
 .background:hover{
     width: 80vw;
     height: 50vh;
-    animation: none;
+    animation: splash 2s infinite;
     border-radius: 1rem;
     transition: 1.5s;
     background-size: cover;
@@ -83,25 +87,25 @@ body, html{
     background-color: #32557f;
     border-radius: 80% 50% 50% 10% / 70% 60% 40% 40%;
   
-}
+} */
 
 .footer_section{
     display: flex;
-    width: 94%;
+    width: 97%;
     margin: 0 auto;
     height: 15vh;
     justify-content: space-evenly;
     align-items: center;
-    /* background-color: orange; */
+    background-color: orange;
 }
-
+/* 
 @keyframes example {
     5%   {transform: scale3d(1.0, 1.0, 1.0);}
     10% {transform: scale3d(1.05, 1.05, 1.05);}
     15%  {transform: scale3d(1.1, 1.1, 1.1);}
     20%  {transform: scale3d(1.15, 1.15, 1.15);}
     25%  {transform: scale3d(1.20, 1.20, 1.20);}
-    30%  {transform: scale3d(1.25, 1.25, 1.25;}
+    /* 30%  {transform: scale3d(1.25, 1.25, 1.25);}
     35%  {transform: scale3d(1.30, 1.30, 1.30);}
     40% {transform: scale3d(1.35, 1.35, 1.35);}
     45%  {transform: scale3d(1.40, 1.40, 1.40);}
@@ -111,10 +115,16 @@ body, html{
     65%  {transform: scale3d(1.50, 1.50, 1.50);}
     70%  {transform: scale3d(1.45, 1.45, 1.45);}
     75%  {transform: scale3d(1.30, 1.30, 1.30);}
-    80%  {transform: scale3d(1.25, 1.25, 1.25);}
-    85%  {transform: scale3d(1.15, 1.15, 1.15);}
+    80%  {transform: scale3d(1.25, 1.25, 1.25);} */
+    /* 85%  {transform: scale3d(1.15, 1.15, 1.15);}
     90%  {transform: scale3d(1.10, 1.10, 1.10);}
     95%  {transform: scale3d(1.05, 1.05, 1.05);}
-    100%  {transform: scale3d(1, 1, 1);}
+    100%  {transform: scale3d(1, 1, 1);} */
 
+
+  } */
+/* 
+  @keyframes splash {
+    0%{display: 
   }
+   */
