@@ -62,7 +62,27 @@ body, html{
     background-position: center;
     background-size: cover;
     background-color: aquamarine;
+    /* animation-name: example; */
+    animation: example 1.5s infinite;
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: cubic-bezier(.65,0,.34,1);
+    cursor:pointer;
+}
 
+.background:hover{
+    width: 80vw;
+    height: 50vh;
+    animation: none;
+    border-radius: 1rem;
+    transition: 1.5s;
+    background-size: cover;
+    display: block;
+    width: 430px;
+    height: 475px;
+    background-color: #32557f;
+    border-radius: 80% 50% 50% 10% / 70% 60% 40% 40%;
+  
 }
 
 .footer_section{
@@ -74,3 +94,27 @@ body, html{
     align-items: center;
     /* background-color: orange; */
 }
+
+@keyframes example {
+    5%   {transform: scale3d(1.0, 1.0, 1.0);}
+    10% {transform: scale3d(1.05, 1.05, 1.05);}
+    15%  {transform: scale3d(1.1, 1.1, 1.1);}
+    20%  {transform: scale3d(1.15, 1.15, 1.15);}
+    25%  {transform: scale3d(1.20, 1.20, 1.20);}
+    30%  {transform: scale3d(1.25, 1.25, 1.25;}
+    35%  {transform: scale3d(1.30, 1.30, 1.30);}
+    40% {transform: scale3d(1.35, 1.35, 1.35);}
+    45%  {transform: scale3d(1.40, 1.40, 1.40);}
+    50%  {transform: scale3d(1.45, 1.45, 1.45);}
+    55%  {transform: scale3d(1.50, 1.50, 1.50);}
+    60%  {transform: scale3d(1.55, 1.55, 1.55);}
+    65%  {transform: scale3d(1.50, 1.50, 1.50);}
+    70%  {transform: scale3d(1.45, 1.45, 1.45);}
+    75%  {transform: scale3d(1.30, 1.30, 1.30);}
+    80%  {transform: scale3d(1.25, 1.25, 1.25);}
+    85%  {transform: scale3d(1.15, 1.15, 1.15);}
+    90%  {transform: scale3d(1.10, 1.10, 1.10);}
+    95%  {transform: scale3d(1.05, 1.05, 1.05);}
+    100%  {transform: scale3d(1, 1, 1);}
+
+  }
