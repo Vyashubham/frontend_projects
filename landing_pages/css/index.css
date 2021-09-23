@@ -5,6 +5,7 @@ body, html{
     font-family: 'Lato', sans-serif;
     letter-spacing: .05rem;
     background-color: #F7F7F7;
+    font-size: 16px;
 }
 
 .top_nav{
@@ -156,13 +157,16 @@ body, html{
   justify-content: center;
   align-items: center;
   /* background-image: url(../media/pngegg.png); */
-  background-position: center;
+  /* background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
+   */
 
-  /* background-color: darkolivegreen; */
   
+   /* background-color: darkolivegreen; */
+  font-size: larger;
+  letter-spacing: .02rem;
 }
 .dotted_line{
   height: 10rem;
@@ -264,7 +268,7 @@ body, html{
   }
 
 
-  p{
+  .nav_btn{
     /* you can change these variables to control the border */
     --border-color: rgb(46, 45, 46);
     --border-width: 0px;
@@ -294,9 +298,27 @@ body, html{
   p:hover {
     background-size: 100% var(--border-width);
   }
+  
+  .footer_section p:hover{
+    color: rgb(41, 41, 41);
+    cursor: pointer;
+  }
+/* 
+  .footer_content:hover{
+    color: aliceblue !important;
+    background-color: blanchedalmond;
+  } */
+
+  .footer_section p:hover{
+    /* background-color: aqua; */
+    margin: 0;
+    padding: 0;
+  }
   .hidden_section{
     display: none;
   }
+
+
 
   @media only screen and (max-width: 1050px) {
     .top_nav, .main_section, .footer_section {
