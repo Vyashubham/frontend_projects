@@ -4,6 +4,7 @@ body, html{
     padding: 0 !important;
     font-family: 'Lato', sans-serif;
     letter-spacing: .05rem;
+    background-color: #F7F7F7;
 }
 
 .top_nav{
@@ -154,8 +155,33 @@ body, html{
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-image: url(../media/pngegg.png); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+
   /* background-color: darkolivegreen; */
   
+}
+.dotted_line{
+  height: 10rem;
+  width: 60%;
+  /* background-color: blueviolet; */
+  z-index: 2;
+  position: fixed;
+  margin-left: 40rem !important;
+  margin-bottom: 22rem;
+  
+}
+
+.dotted_line img{
+  transform: rotate(20deg);
+}
+#bg_img{
+  transform: rotate(100deg) !important;
+  z-index: 2;
+  background-color: blueviolet !important;
 }
 .text{
   width: 80%;
