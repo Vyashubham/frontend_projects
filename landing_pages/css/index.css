@@ -148,8 +148,16 @@ body, html{
   /* 100px 100px 210px rgba(0, 0, 0, 0.14) */
 ; 
   /* animation: example 1s infinite; */
+  /* animation: fading-in 1s ; */
+
+  transition: all 0.5 ease;
 
 }
+/* 
+@keyframes fading-in {
+  to{opacity: 0;}
+  from{opacity: 1;}
+} */
 .main_text{
   width: 60%;
   min-height: 100%;
@@ -236,6 +244,15 @@ body, html{
   
 }
 
+.zfix{
+  z-index: 2;
+  cursor: pointer;
+  
+}
+.zfix p:hover{
+  color: black;
+  
+}
 
 @keyframes example {
   0% {
