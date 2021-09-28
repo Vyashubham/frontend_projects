@@ -345,10 +345,48 @@ body, html{
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
       height: 100vh;
       width: 100vw;
 
+      /* background-color: coral; */
+      background-color: #FFFFFF;
+      
     }
+
+    .small_screen_bg{
+      min-height: 50%;
+      width: 100%;
+      background-image: url(https://cdn.dribbble.com/users/1919145/screenshots/4675788/media/bd12dc89db94ec225b21e46cb1cbc4d5.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+
+      /* background-color: darkcyan; */
+
+    }
+
+    .small_screen_text{
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      
+      /* background-color: darkgoldenrod; */
+
+      font-size: 1.5rem;
+      
+    }
+    .small_screen_text p{
+      border-bottom: .2rem solid black;
+
+      padding: .5rem 0;
+     
+    }
+    
+    
   }
 
   .fab{
