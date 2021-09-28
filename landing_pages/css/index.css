@@ -357,7 +357,7 @@ body, html{
     .small_screen_bg{
       min-height: 50%;
       width: 100%;
-      background-image: url(https://cdn.dribbble.com/users/1919145/screenshots/4675788/media/bd12dc89db94ec225b21e46cb1cbc4d5.gif);
+      background-image: url(../media/bd12dc89db94ec225b21e46cb1cbc4d5.gif);
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
